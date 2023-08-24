@@ -6,20 +6,15 @@
             <div v-html="renderRichText(blok.subtitle)" class="text-[#898CA9]"></div> 
             <div v-html="renderRichText(blok.cta)" class="text-white"></div>
         </div>
-        <div class="w-[338px] mt-12 flex mx-auto align-center justify-center z-20 rounded-xl">
-            <input class="py-4 px-14 gradborder rounded-xl bg-transparent" type="text" placeholder="Email Address"/>
+        <div class="mt-10 w-[338px] mx-auto z-20">
+            <div class="bg-gradient-to-t from-cyan-500 to-purple-500 p-1 rounded-xl">
+                <input class="block w-full rounded-lg p-4 bg-[#0B0B0F] text-white" placeholder="Email Address">
+            </div>
         </div>
+
     </div>
 </template>
 
 <script setup>
 defineProps({ blok: Object })
 </script>
-
-<style scoped>
-.gradborder {
-    border: 1px solid transparent; /* Establece un borde inicialmente transparente */
-    border-image: linear-gradient(to bottom, #18C8FF, #933FFE); /* Aplica el gradiente como imagen de borde */
-    border-image-slice: 1; /* Configura cómo se divide la imagen del borde */
-}
-</style>

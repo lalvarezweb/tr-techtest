@@ -5,8 +5,11 @@
             <img :src="blok.logo.filename" alt="">
             <div v-html="renderRichText(blok.description)" class="mt-8"></div>
             <div v-html="renderRichText(blok.info)" class="mt-8"></div>
-            <input class="mt-8 text-white border py-4 px-32 rounded-xl gradborder bg-transparent" placeholder="Email Address" type="text">
-            <div v-html="renderRichText(blok.copyright)" class="my-8"></div>
+            <div class="mt-10 w-[457px] mx-auto">
+            <div class="bg-gradient-to-t from-cyan-500 to-purple-500 p-1 rounded-xl">
+                <input class="block w-full rounded-lg p-4 bg-[#0B0B0F] text-white" placeholder="Email Address">
+            </div>
+        </div>            <div v-html="renderRichText(blok.copyright)" class="my-8"></div>
         </div>
         <div class="flex flex-col gap-6">
             <h4 class="font-semibold">Company</h4>
