@@ -1,6 +1,6 @@
 <template>
     <div v-editable="blok" class="py-60 flex flex-row justify-center text-white gap-6 relative">
-        <img src="../assets/img/circles.webp" alt="" class="absolute top-0">
+        <img src="../assets/img/circles.webp" alt="" class="absolute top-[-3.3rem]">
         <div v-for="cardItem in blok.cards"
         :key="cardItem._uid"
         class="flex flex-col px-6 py-8 w-[26rem] rounded-3xl justify-center items-center text-center bg-[#1A1B23]">
