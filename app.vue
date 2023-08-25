@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'The Rose TechTest | lalvarezweb.es',
+  title: 'The Rose TechTest | developed by lalvarezweb.es',
   meta: [
     { name: 'description', content: 'Tech test for job offer in The Rose Studio, developed by lalvarezweb using Nuxt3 & Storyblok' }
   ],
